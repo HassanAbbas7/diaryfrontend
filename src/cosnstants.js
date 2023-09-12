@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 
-const BASE_URL = `http://localhost:8000`
+const BASE_URL = `http://roomgptbackend.pythonanywhere.com/`
 
 const GET_QUESTIONS = `${BASE_URL}/questions/`
 const GET_QUESTION = `${BASE_URL}/question/`
